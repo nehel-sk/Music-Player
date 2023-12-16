@@ -2,6 +2,7 @@ import React from 'react'
 import './Songs.css'
 import AddButton from '../../Components/AddSong/AddButton'
 import RowPost from '../../Components/RowSong/RowPost'
+import { ImHeadphones } from "react-icons/im";
 
 
 function Songs() {
@@ -11,7 +12,7 @@ function Songs() {
         <div className='sideBar'>
           <h1>Logo</h1> 
           <div className='songNavigation'>
-            
+            <ImHeadphones style={{marginTop:'15px'}} /> 
             <p>Songs</p>
           </div>
         </div>
