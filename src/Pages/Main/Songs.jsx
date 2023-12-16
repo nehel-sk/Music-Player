@@ -1,6 +1,7 @@
 import React from 'react'
 import './Songs.css'
 import AddButton from '../../Components/AddSong/AddButton'
+import RowPost from '../../Components/RowSong/RowPost'
 
 
 function Songs() {
@@ -9,6 +10,10 @@ function Songs() {
         {/*-----------------side bar-----------  */}
         <div className='sideBar'>
           <h1>Logo</h1> 
+          <div className='songNavigation'>
+            
+            <p>Songs</p>
+          </div>
         </div>
       
         <div className='mainContainer'>
@@ -29,11 +34,19 @@ function Songs() {
          {/* -----------song list----------- */}
           <div className='songList'>
             
-            <div classsName='tableContainer'>
-              <h4>SONG</h4>
-              <h4>SOURCE</h4>
-              <h4>ADDED ON</h4>
-            </div> 
+            <div className='songListContainer'>
+              <div className='song'><h5>SONG NAME</h5></div>
+              <div className='source'><h5>SOURCE</h5></div>
+              <div className='addedOn'><h5>ADDED ON</h5></div>
+            </div>
+            <p className='hrHeading'></p>
+            <RowPost/>
+            <RowPost/>
+            <RowPost/>
+            <RowPost/>
+            <RowPost/>
+            <RowPost/>
+            <RowPost/>
             
           </div>
 

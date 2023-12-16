@@ -12,7 +12,7 @@
    
 }
 .mainContainer{
-    background-color: yellow;
+    background-color: white;
     position: absolute;
     right: 0;
     width: 1105px;
@@ -60,13 +60,38 @@
 /* ------------song list-------------- */
 
 .songList{
+    display: flex;
+    flex-direction: column;
     height:75%;
     background-color: white;
 }
-.tableContainer{
+.songListContainer{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    
+   
+}
+.song{
+    width:40%;
+}
+.song h5{
+    padding-left: 60px;
+}
+.source{
+    width:20%;
+}
+.addedOn{
+    width:40%;
+}
+
+.hrHeading::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid rgb(4 3 3 / 10%);
+    width: 97%; 
+    margin: 0px auto; 
+}
+.hrHeading{
+    margin: 0;
 }
 
 
