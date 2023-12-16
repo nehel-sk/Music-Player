@@ -1,6 +1,7 @@
 import React from 'react'
 import './Songs.css'
 
+
 function Songs() {
   return (
     <div className='songContainer'>
@@ -21,7 +22,7 @@ function Songs() {
           </div>
          
           <div className='songList'>
-            <h1>Song list</h1>
+            <h1>songs list</h1>
           </div>
           <div className='nowPlaying'>
 
