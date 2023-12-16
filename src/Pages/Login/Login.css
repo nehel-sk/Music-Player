@@ -1,0 +1,35 @@
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 625px;
+}
+.container h1{
+    color:rgba(85, 37, 131, 1);
+    margin-top: 0px;
+}
+.box{
+    position: fixed;
+    width:414px;
+    height: 238px;
+}
+form p{
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+
+form button{
+    color:white;
+    margin-top: 10px;
+    background-color:rgba(85, 37, 131, 1);
+    height: 50Px;
+    width: 410px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: rgb(75, 38, 117);
+}
