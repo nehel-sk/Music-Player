@@ -1,0 +1,41 @@
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 625px;
+}
+.container h1{
+    color:rgba(85, 37, 131, 1);
+    margin-top: 0px;
+}
+.box{
+    position: fixed;
+    width:414px;
+    height: 238px;
+}
+.otp-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    height: 90px; 
+    width: 160px;
+  }
+  
+  .otp-container input {
+    margin-right: 0;
+    flex: 1;
+    padding: 25px; 
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; 
+    text-align: center; 
+
+  }
+  .hyp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+  }

@@ -53,17 +53,7 @@
 .title h2{
     margin:0px; 
 }
-.title button{
-    background-color:rgba(253, 185, 39, 1);
-    border: none;
-    padding: 10px;
-    width: 10%;
-    border-radius: 3px;
-}
-hr{
-    margin:0;
-    color:rgba(128, 128, 128, 0.637)
-}
+
 
 
 
@@ -72,6 +62,11 @@ hr{
 .songList{
     height:75%;
     background-color: white;
+}
+.tableContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 

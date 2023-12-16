@@ -8,8 +8,8 @@ function Login(){
     const[phone,setPhone]=useState("")
     const navigate=useNavigate()
     return(
-        <div className='container'>
-            <div className='box'>
+        <div className='vContainer'>
+            <div className='vBox'>
                 <h1>Sign In</h1>
                 <form>
                     <p>Please enter your mobile number to login. We will send an OTP to verify your number.</p>
